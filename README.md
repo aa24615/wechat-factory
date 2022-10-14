@@ -48,7 +48,7 @@ $app = WechatFactory::work($config);
 
 ```
 
-详细用方请参考 [easywechat](https://easywechat.com/) 官网 
+详细使用方法请参考 [easywechat](https://easywechat.com/) 官网 
 
 ## 参与贡献
 
