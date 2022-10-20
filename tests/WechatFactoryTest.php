@@ -15,6 +15,13 @@ use Zyan\WechatFactory\WechatFactory;
 
 class WechatFactoryTest extends TestCase
 {
+    /**
+     * test_factory.
+     *
+     * @return void
+     *
+     * @author 读心印 <aa24615@qq.com>
+     */
     public function test_factory()
     {
         $this->assertInstanceOf(\EasyWeChat\MiniApp\Application::class, WechatFactory::miniApp([]));

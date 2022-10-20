@@ -56,7 +56,7 @@ class WechatFactory
      * @param string $name
      * @param array  $arguments
      *
-     * @return
+     * @return Pay|MiniApp|OpenPlatform|OfficialAccount|Work|OpenWork
      */
     public static function __callStatic($name, $arguments)
     {
